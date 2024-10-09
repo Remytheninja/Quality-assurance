@@ -1,0 +1,159 @@
+body{
+    margin: auto;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    padding: auto;
+    background-color: rgb(218, 218, 194);
+}
+main{
+    margin: 0 auto;
+    padding:0 32px;
+    max-width: 800px;
+    
+}
+main img{
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    
+}
+header{
+    background-color: black;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: sticky;
+    top:0;
+    
+}
+header h1{
+    color: white;
+    font-size: 24px;
+    padding: 4px 16px;
+    text-align: center;
+}
+p{
+    font-size: 16px;
+}
+.image-center{
+    display: flex;
+    justify-content:center;
+    column-gap: 16px;
+    padding: 16px;
+}
+.image-center img{
+    padding: 16px;
+}
+.image-container{
+    display: flex;
+    justify-content:center;
+    column-gap: 48px;
+    padding: 0px;
+    align-items: left;
+    
+}
+.image-container img{
+    max-width: 60%;
+    height: auto;
+    width: 300;
+    
+}
+.image-container p{
+    max-width: 100%;
+    
+}
+.emphasis{
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 42px;
+    font-weight: bold;
+    margin: 16px 0;
+    text-align: left;
+    padding: 0;
+}
+
+.image-size{
+    width: 100%;
+    height: auto;
+}
+.image-contain{
+    display: flex;
+    justify-content:center;
+    column-gap: 48px;
+    
+}
+.image-contain img{
+    padding-bottom: 16px;
+}
+.main-image{
+    display: flex;
+    justify-content:center;
+    margin: 16px;
+    
+}
+@media (max-width: 768px) {
+    .image-center {
+        flex-direction: column;
+    }
+    .image-container {
+        flex-direction: column;
+    }
+    .image-contain{
+        flex-direction: column;
+    }
+    .image-text{
+        flex-direction: column;
+    }
+}
+.quality{
+    text-align: center;
+    font-size: 64px;
+}
+.steps{
+    text-align: center;
+    line-height: 32px;
+}
+.check{
+    font-weight:bold;
+}
+.image-text{
+    display: flex;
+    justify-content:center;
+    column-gap: 32px;
+    padding: 8px;
+    align-items: flex-start;
+}
+.image-text img{
+    width: 75%;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+.image-text div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.image-text p{
+    margin: 8px 0;
+    text-align: justify;
+}
+.text-list{
+    font-weight: bold;
+    font-size: 32px;
+}
+.the-end{
+    max-width: none;
+    width: 100%;
+    text-align: center;
+    line-height: 32px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 16px;
+    color: rgb(255, 255, 255);
+}
