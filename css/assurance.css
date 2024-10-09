@@ -162,3 +162,12 @@ footer{
 img{
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);;
 }
+button{
+    background-color: black;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 24PX;
+    margin: 16px;
+    cursor: pointer;
+    
+}
